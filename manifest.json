@@ -1,0 +1,14 @@
+{
+  "id": "bowmark",
+  "name": "career-ops-plugin-bowmark",
+  "version": "0.1.0",
+  "apiVersion": 1,
+  "description": "Every open job at a company, read live from its own applicant-tracking system (Greenhouse, Lever, Ashby, Workday and 8 more), via Bowmark.",
+  "hooks": ["provider", "search"],
+  "requiredEnv": ["BOWMARK_API_KEY"],
+  "allowedHosts": ["api.bowmark.ai"],
+  "jobPostings": true,
+  "skill": "skill.md",
+  "humanInTheLoop": true,
+  "homepage": "https://github.com/bowmark-ai/career-ops-plugin-bowmark"
+}
